@@ -1,8 +1,8 @@
-# Definition of roles
+# Definition of roles # 
 
-resource snowflake_role role {
+resource "snowflake_role" "developer" {
   name    = "developer"
   comment = "Role for Snowflake developer"
 }
 
-# Grant roles to users
+# Grant roles to users # 
